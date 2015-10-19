@@ -1,3 +1,13 @@
+<html>
+<head>
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="assets/js/bootstrap.js"></script>
+
+</head>
+<body>
+
 <h1>Rock</h1>
 
 <p>You played <%= @user_move %>!</p>
@@ -5,3 +15,23 @@
 <p>The computer played <%= @computer_move %>!</p>
 
 <p>You <%= @result %>!</p>
+
+<h2>Play again, choose one of the below!</h2>
+
+<table>
+  <tr>
+  <td class="col-md-3 image_container">
+    <li><a href="http://localhost:3000/rock"><img src="http://localhost:3000/assets/images/rock.png"/></a></li>
+  </td>
+  <td class="col-md-3 image_container">
+    <li><a href="http://localhost:3000/paper"><img src="http://localhost:3000/assets/images/paper.png"/></a></li>
+  </td>
+  <td class="col-md-3 image_container">
+    <li><a href="http://localhost:3000/scissors"><img src="http://localhost:3000/assets/images/scissors.png"/></a></li>
+  </td>
+</table>
+
+
+
+</body>
+</html>

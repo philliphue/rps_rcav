@@ -5501,6 +5501,9 @@ button.list-group-item-danger.active:focus {
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
           box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
 }
+.panel-test {
+width: 30%;
+}
 .panel-body {
   padding: 15px;
 }
@@ -6796,5 +6799,10 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+}
+
+.image_container img {
+  width: 180px;
+  height: 180px;
 }
 /*# sourceMappingURL=bootstrap.css.map */
