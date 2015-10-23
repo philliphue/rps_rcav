@@ -8,30 +8,13 @@
 </head>
 <body>
 
-<h1>Rock</h1>
+<center><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Balanced_Rock.jpg/440px-Balanced_Rock.jpg" width="300"></center>
 
-<p>You played <%= @user_move %>!</p>
+<center><h1>You played <%= @user_move %>!</h1></center>
 
-<p>The computer played <%= @computer_move %>!</p>
+<center><h2>The computer played <%= @computer_move %>!</h2></center>
 
-<p>You <%= @result %>!</p>
-
-<h2>Play again, choose one of the below!</h2>
-
-<table>
-  <tr>
-  <td class="col-md-3 image_container">
-    <li><a href="http://localhost:3000/rock"><img src="http://localhost:3000/assets/images/rock.png"/></a></li>
-  </td>
-  <td class="col-md-3 image_container">
-    <li><a href="http://localhost:3000/paper"><img src="http://localhost:3000/assets/images/paper.png"/></a></li>
-  </td>
-  <td class="col-md-3 image_container">
-    <li><a href="http://localhost:3000/scissors"><img src="http://localhost:3000/assets/images/scissors.png"/></a></li>
-  </td>
-</table>
-
-
+<center><h2>You <%= @result %>!</h2></center>
 
 </body>
 </html>

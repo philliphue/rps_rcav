@@ -5,10 +5,31 @@
   <%= stylesheet_link_tag    'application', media: 'all' %>
   <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="assets/js/bootstrap.js"></script>
 </head>
 <body>
 
 <%= yield %>
+
+<center><h2>Play again, choose one of the below!</h2></center>
+<center>
+<table>
+  <tr>
+  <td class="col-md-3 image_container">
+    <button><a href="http://localhost:3000/rock" class="hvr-grow"><img src="http://localhost:3000/assets/images/rock.png"/></a></button>
+  </td>
+  <td class="col-md-3 image_container">
+    <button><a href="http://localhost:3000/paper" class="hvr-grow"><img src="http://localhost:3000/assets/images/paper.png"/></a></button>
+  </td>
+  <td class="col-md-3 image_container">
+    <button><a href="http://localhost:3000/scissors" class="hvr-outline-out"><img src="http://localhost:3000/assets/images/scissors.png"/></a></button>
+  </td>
+</table>
+</tr>
+</table>
+</center>
 
 </body>
 </html>
